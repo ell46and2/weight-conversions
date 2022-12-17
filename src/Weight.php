@@ -10,7 +10,8 @@ class Weight
     }
 
     public function __construct(protected float $kilograms)
-    {}
+    {
+    }
 
     public function toPounds(): float
     {
